@@ -1,6 +1,7 @@
 import argparse
 from random import randint
 from time import sleep
+import init_paths
 
 import torch
 import torch.distributed as dist
